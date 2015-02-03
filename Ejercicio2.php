@@ -25,8 +25,7 @@ if(isset($_POST["btnRev"])){
 $contador++;
 $iteraciones--;
 
-   }
-   
+   }   
 }
 if(isset($_POST["btnFac"])){
     //factorial numero2
