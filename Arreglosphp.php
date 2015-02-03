@@ -4,7 +4,6 @@
 $arreglo=array(1,2,3,4,"texto",false,true);
 
 //motivos de depuracion
-
 print_r($arreglo);
 echo "<br/>";
 
