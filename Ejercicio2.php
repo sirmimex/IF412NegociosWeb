@@ -3,6 +3,7 @@ $numero1=0;
 $numero2=0;
 $iteraciones=10;
 $msg="";
+$iteracionselecta=10;
 
 if(isset($_POST["btnPrc"])){
     //numero1 elevado al numero 2
@@ -23,6 +24,7 @@ if(isset($_POST["btnRev"])){
     $msg .="$contador ). Producto:".($numero1*$iteraciones)."<br/>";
 $contador++;
 $iteraciones--;
+
    }
 }
 if(isset($_POST["btnFac"])){
@@ -54,7 +56,7 @@ if(isset($_POST["btnFac"])){
                    name="numero2" value="<?php echo $numero2; ?>"/>
             <br/>
             <label for="interaciones">Número de Iteraciones</label>
-            <select name="iteraciones" id="iteraciones">
+         <select name="iteraciones" id="iteraciones">
                 <option value="10">10</option>
                 <option value="20">20</option>
                 <option value="50">50</option>
